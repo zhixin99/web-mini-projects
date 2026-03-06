@@ -1,0 +1,86 @@
+/* border: 1px solid red;  */
+
+*, *::before, *::after {
+    box-sizing: border-box;    
+}
+
+:root {
+	--brown: #563127;
+	--cream: #fff9eb;
+	--orange: #eb7243;
+	--lime-green: #d0d960;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background: var(--brown); 
+	height: 100vh; 
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	font-family: "Inter", sans-serif;
+	font-size: 1rem; 
+	color: var(--brown);
+	text-align: center;
+}
+
+
+input, button {
+    font-family: inherit;
+}
+
+.game-container {
+	background: var(--cream);
+	width: 420px;
+	height: 420px; 
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.title {
+	color: var(--orange);
+	font-weight: 600; 
+	margin: 0; 
+}
+
+.instructions {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.count-container {
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+	width: 85%;
+}
+
+.dices-container {
+	display: grid; 
+	grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+	gap: 1em; 
+	width: 85%; 
+}
+
+.dice {
+	color: var(--brown); 
+	background: white; 
+	aspect-ratio: 1 / 1;
+	border: none; 
+	box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.05);
+	font-size: 1.5rem;
+}
+
+.roll-button {
+	color: var(--cream);
+	background: var(--orange);
+	border: none; 
+	box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.05);
+	padding: 0.5em 1.2em;
+	border-radius: 5px;
+	font-weight: 600; 
+	font-size: 1.2rem; 
+}
