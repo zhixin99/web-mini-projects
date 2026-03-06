@@ -1,5 +1,5 @@
 # Tenzi
-<img src="images/screenshoot-of-tenzi.png" alt="tenzi game" width="300">
+<img src="./images/screenshoot-of-tenzi.png" alt="tenzi game" width="300">
 
 ## Install
 ```
