@@ -84,7 +84,7 @@ export default function App() {
 					</div>
 					<div className="count-info">
 						<div>Time</div>
-						<div id="current-time">{`{time} s`}</div>
+						<div id="current-time">{`${time} s`}</div>
 					</div>
 				</div>
 				<div className="dices-container">
