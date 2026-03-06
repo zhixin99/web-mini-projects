@@ -80,11 +80,11 @@ export default function App() {
 					</div>
 					<div className="count-info">
 						<div>Best Time</div>
-						<div id="best-time">{bestTime ? bestTime : 0}</div>
+						<div id="best-time">{`${bestTime ? bestTime : 0} s`}</div>
 					</div>
 					<div className="count-info">
 						<div>Time</div>
-						<div id="current-time">{time}</div>
+						<div id="current-time">{`{time} s`}</div>
 					</div>
 				</div>
 				<div className="dices-container">
