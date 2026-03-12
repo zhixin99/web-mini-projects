@@ -16,7 +16,6 @@ npm install react-confetti
     * value: generate a random number
     * id: use nanoid 
     * isHeld: default to be false
-*  to generate random value.
 * Map over the state dices, pass the props(value, id, isHeld) and render the Dice component.
 ```jsx
 // App.jsx
