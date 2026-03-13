@@ -1,6 +1,6 @@
 This is a basketball scoreboard app built using JavaScript, HTML, and CSS for tracking and displaying basketball game scores in real-time. It allows users to start, pause and resume the game.  
 
-The key learning points from this sole project: 
+## Key learning points
 * script tag
 * variables
 * numbers & strings
@@ -13,7 +13,7 @@ The key learning points from this sole project:
 * setInterval & clearInterval
 * @font-face & font-family
 
-Display: 
+## Display
 * The new game button is default to be disabled. 
 ![The new game button is default to be disabled](images/default-page.png)
 
