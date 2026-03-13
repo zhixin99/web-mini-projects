@@ -5,7 +5,7 @@ const newGameBtn = document.getElementById("new-game")
 
 let homeNumber = 0
 let guestNumber = 0
-let totalSeconds = 48 * 60
+let totalSeconds = 0.1 * 60
 let isRunning = false
 let timerInterval = null
 
