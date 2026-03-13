@@ -1,0 +1,115 @@
+:root {
+    --color-grey: #ebebeb; 
+    --color-dark-blue: #00296b; 
+    --color-orange: #ff6700;
+}
+
+@font-face {
+    font-family: CursedTimer;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    background: var(--color-grey);
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    color: var(--color-grey);
+    font-family: Verdana, sans-serif;
+    font-size: 1rem; 
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+h2 {
+    margin: 1rem 0 0; 
+    padding: 0; 
+    font-size: 3rem;
+    display: block; 
+    line-height: 1;
+    color: var(--color-grey);
+}
+
+button {
+    cursor: pointer;
+    background: var(--color-dark-blue);
+    color: var(--color-grey);
+    border: 1px solid var(--color-grey);
+    border-radius: 5px;
+}
+
+/* layout */
+.scoreboard-container {
+    background: var(--color-dark-blue);
+    width: 700px; 
+    height: 420px; 
+    padding: 1em; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container {
+    border-bottom: 1px solid var(--color-grey);
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.start-pause-btn {
+    margin-right: 1rem; 
+}
+
+.new-game, .start-pause-btn {
+    padding: 0.5em 1em; 
+    margin-bottom: 1rem; 
+}
+
+.new-game:disabled, .start-pause-btn:disabled {
+    color: black;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.home-guest-container {
+    display: flex; 
+    justify-content: space-around;
+    width: 100%; 
+}
+
+.home-container, .guest-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.score, .timer-display {
+    background: black; 
+    color: var(--color-orange);
+    padding: 0.5rem 2rem; 
+    font-size: 5rem; 
+    font-family: CursedTimer, sans-serif;
+}
+
+.add-container {
+    display: flex; 
+    gap: 1em; 
+}
+
+.add-score {
+    border-radius: 5px;
+    padding: 0.5em; 
+    font-family: CursedTimer, sans-serif;
+}
+

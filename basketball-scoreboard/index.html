@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css">
+		<title>Basketball Scoreboard</title>
+	</head>
+
+	<body>
+		<main>
+            <div class="scoreboard-container">
+                <div class="timer-container">
+                    <div class="timer-display" id="timer-display">48:00</div>
+                    <div class="timer-controls">
+                        <button class="start-pause-btn" id="start-pause-btn">Start</button>
+                        <button class="new-game" id="new-game" disabled>New Game</button>
+                    </div>
+                </div>
+                
+                <div class="home-guest-container" id="home-guest-container">
+                    <div class="home-container">
+                        <h2>HOME</h2>
+                        <div class="score" id="home-score">0</div>
+                        <div class="add-container">
+                            <button class="add-score" id="home-one">+1</button>
+                            <button class="add-score" id="home-two">+2</button>
+                            <button class="add-score" id="home-three">+3</button>
+                        </div>
+                    </div>
+                    <div class="guest-container">
+                        <h2>GUEST</h2>
+                        <div class="score" id="guest-score">0</div>
+                        <div class="add-container">
+                            <button class="add-score" id="guest-one">+1</button>
+                            <button class="add-score" id="guest-two">+2</button>
+                            <button class="add-score" id="guest-three">+3</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <script type="module" src="./index.js"></script>
+	</body>
+</html>
