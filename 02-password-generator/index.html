@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <div class="header-container">
+                <h1>Generate a <br> <span>random password</span></h1>
+                <p class="description">Never use an insecure password again.</p>
+            </div>           
+            <div class="generator-container">
+                <div class="settings-container">
+                    <div class="customize-header">Customize your password</div>
+                    <div class="length-container">
+                        <label for="password-length">Length</label>
+                        <div class="range-number">
+                            <input type="range" name="password-length" class="password-length" id="password-length" min="4" max="20" value="15">
+                            <span id="length-value" class="length-value">15</span>
+                        </div>
+                    </div>
+                    <div class="toggle-container">
+                        <label for="number-toggle">Number</label>
+                        <label class="switch">
+                            <input type="checkbox" id="number-toggle" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="toggle-container">
+                        <label for="symbols-toggle">Symbols</label>
+                        <label class="switch">
+                            <input type="checkbox" id="symbols-toggle" checked>
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <button class="generate-btn" id="generate-btn">Generate passwords</button>
+                </div>
+                <hr>
+                <div class="password-container">
+                    <button class="password" id="password-one"></button>
+                    <button class="password" id="password-two"></button>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
