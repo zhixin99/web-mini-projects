@@ -1,6 +1,6 @@
 This is a basketball scoreboard app built using JavaScript, HTML, and CSS for tracking and displaying basketball game scores in real-time. It allows users to start, pause and resume the game.  
 
-## Key learning points
+## Key points
 * script tag
 * variables
 * numbers & strings
