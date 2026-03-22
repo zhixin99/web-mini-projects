@@ -13,7 +13,7 @@ This is a basketball scoreboard app built using JavaScript, HTML, and CSS for tr
 * setInterval & clearInterval
 * @font-face & font-family
 
-## Display
+## App Preview
 * The new game button is default to be disabled. 
 ![The new game button is default to be disabled](images/default-page.png)
 
