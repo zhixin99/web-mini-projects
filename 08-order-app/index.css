@@ -1,0 +1,151 @@
+*, *::before, *::after {
+    box-sizing: border-box;    
+}
+
+body {
+    margin: 0;
+    font-size: 1rem; 
+    font-family: "Smythe", sans-serif;
+} 
+
+h2 {
+    margin-top: 0; 
+}
+
+button {
+    cursor: pointer; 
+}
+
+.header {
+    width: 100%; 
+}
+
+.container {
+    width: 100%; 
+    padding: 2rem 2rem 0; 
+}
+
+
+/* order section*/
+.each-container {
+    display: flex; 
+    align-items: center;
+    width: 100%; 
+    padding: 0.5rem 0 0.5rem; 
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.each-container p {
+    margin: 0 0 0.5rem; 
+}
+
+.menu-details {
+    display: flex; 
+    flex-direction: column;
+    align-items: top;
+    justify-content: center;
+    text-align: left;
+}
+
+.each-container button {
+    margin-left: auto; 
+    background-color: white;
+    border-radius: 50%;
+    font-size: 1.5rem; 
+    color: #3c3c33;
+    border: 1px solid #DEDEDE; 
+    width: 40px;
+    height: 40px;
+}
+
+.food-img {
+    margin-right: 1.5rem; 
+    font-size: 3rem;
+}
+
+/* summary */
+.your-order-header {
+    text-align: center;
+}
+
+.single-ordered-product-container, .total-price-container {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 1rem; 
+}
+
+.single-ordered-product-container button {
+    color: #BBBBBB;
+    border: none; 
+    background-color: white;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -0.5;
+    font-weight: 100;
+}
+
+.summary-name {
+    margin-right: 0.5rem; 
+}
+
+.summary-price, .total-price {
+    margin-left: auto; 
+}
+
+.green-bg {
+    background: #ECFDF5;
+    color: #065F46;
+    text-align: center;
+    margin: 0; 
+    padding: 1.5rem 1rem; 
+}
+
+/* payment section */
+.complete-button {
+    padding: 0.4em 1em; 
+    width: 100%; 
+    background-color: #16DB99;
+    color: white;
+    border: none; 
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.payment-container {
+    position: fixed;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-form {
+    background: white; 
+    width: 350px; 
+    height: 350px; 
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem; 
+}
+
+.payment-container input {
+    width: 100%;
+    border: 1px solid #757575;  
+    border-radius: 3px;
+    padding: 0.6em 1em;
+    font-size: 1rem; 
+    color: #757575; 
+    margin-bottom: 1rem;
+}
+
+.invisible {
+    display: none; 
+}

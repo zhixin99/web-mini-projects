@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <img src="./header.png" class="header">
+        <div class="container" id="order-container"></div>
+        <div class="container" id="summary-thankyou-container">
+            <h2 class="your-order-header">Your order</h2>
+            <div class="summary-container" id="summary-container"></div>
+            <button class="complete-button invisible" id="complete-button"></button>
+        </div>
+        <div class="payment-container invisible" id="payment-container">
+            <form id="payment-form" class="payment-form">
+                <h2>Enter card details</h2>
+                <div>
+                    <input type="text" placeholder="Enter your name" aria-label="Enter your name" name="holder-name" required>
+                    <input type="text" inputmode="numeric" placeholder="Enter card number" aria-label="Enter card number" name="card-number" required>
+                    <input type="text" inputmode="numeric" placeholder="CVV" aria-label="Enter card CVV" name="cvv" required>
+                </div>
+                <button aria-label="pay" class="complete-button">Pay</button>
+            </form>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
